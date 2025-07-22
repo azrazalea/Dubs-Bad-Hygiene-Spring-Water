@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Dubs Bad Hygiene - Spring Water Patch</name>
+    <author>azrazalea</author>
+    <packageId>azrazalea.dbh.springwater.patch</packageId>
+    <description>Enables Hot Springs and Healing Springs as clean water sources for Dubs Bad Hygiene.
+
+Water Sources Added:
+• Hot Springs (Odyssey DLC)
+• Healing Springs (Alpha Biomes)
+
+Both are treated as clean water - safe for drinking and washing without disease risk.
+
+Requirements:
+- Dubs Bad Hygiene
+
+Load after Dubs Bad Hygiene.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Dubwise.DubsBadHygiene</packageId>
+            <displayName>Dubs Bad Hygiene</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/836308268</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Dubwise56/Dubs-Bad-Hygiene</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Odyssey</packageId>
+            <displayName>RimWorld - Odyssey</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Dubwise.DubsBadHygiene</li>
+    </loadAfter>
+</ModMetaData>
